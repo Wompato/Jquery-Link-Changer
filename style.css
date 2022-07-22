@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    max-width: 800px;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+button {
+    padding: 3px;
+}
+
+input {
+    padding: 3px;
+    width: 200px;
+}
+
+.highlighted {
+    background-color: yellow;
+}
